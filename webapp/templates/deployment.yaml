@@ -1,4 +1,3 @@
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -13,6 +12,6 @@ spec:
    labels:
     app: capstone
   spec:
-  containers:
-   name: c1
-   image: sonal04/capstoneimage
+   containers:
+    - name: c1
+      image: desertrat/capstoneimage
